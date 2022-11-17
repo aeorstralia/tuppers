@@ -3,7 +3,7 @@ from os.path import join, basename
 from glob import glob
 from pathlib import Path
 
-AvatarPrefix = "https://raw.githubusercontent.com/JamesHurburgh/Tuppers/main/"
+AvatarPrefix = "https://github.com/aeorstralia/tuppers/raw/main/"
 
 # Initialise the object
 aeorstraliaTuppers = {
