@@ -2,6 +2,7 @@ import json
 from os.path import join, basename
 from glob import glob
 from pathlib import Path
+import urllib.parse
 
 AvatarPrefix = "https://github.com/aeorstralia/tuppers/raw/main/"
 
@@ -29,7 +30,7 @@ for imageFile in files:
     kebabCase = lowerCaseName.replace(' ','-')
     newTupper = {
             "name": kebabCase,
-            "avatar_url": f"{AvatarPrefix}{filename}",
+            "avatar_url": f"{AvatarPrefix}{urllib.parse.quote(filename)}",
             "brackets": [
                 f"{kebabCase}:",
                 ""
