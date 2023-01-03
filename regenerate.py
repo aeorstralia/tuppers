@@ -20,7 +20,7 @@ aeorstraliaTuppers = {
 # Find the images
 files = []
 for ext in ('*.jpeg', '*.png', '*.jpg'):
-   files.extend(glob(join("./", ext)))
+   files.extend(glob(join("./NPCs/", ext)))
 
 # Add them to the file
 for imageFile in files:
