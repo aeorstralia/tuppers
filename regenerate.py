@@ -4,7 +4,7 @@ from glob import glob
 from pathlib import Path
 import urllib.parse
 
-AvatarPrefix = "https://github.com/aeorstralia/tuppers/raw/main/"
+AvatarPrefix = "https://github.com/aeorstralia/tuppers/raw/main/NPCs/"
 
 # Initialise the object
 aeorstraliaTuppers = {
